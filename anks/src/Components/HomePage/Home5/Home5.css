@@ -1,0 +1,55 @@
+.home5{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+.frm-div{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.form-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    padding: 2vw 0;
+    background-color: var(--all-blue);
+}
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.fields{
+    width: 90%;
+}
+.form-head{
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 1vw 0;
+}
+
+.form-cont .fields input{
+    width: 100%;
+    background-color: #212D4C;
+}
+.form-cont .fields textarea{
+    background-color: #212D4C;
+}
+.field-grid {
+    display: flex;
+    justify-content: space-between;
+  }

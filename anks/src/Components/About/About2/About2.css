@@ -1,0 +1,138 @@
+.about2 {
+    height: 100vh; 
+    display: flex;
+    flex-direction: row;
+    background-position: center;
+    background-size: cover;
+}
+
+.about2-h1 {
+    padding: 3vw 0;
+    padding-bottom: 0.5vw;
+    font-size: 2.5vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about2-parent {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12vw;
+}
+
+.about2-btn {
+    text-align: center;
+    padding: 0.5vw 3vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.vision {
+    margin: 1.5vw 0;
+}
+
+.vision-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 65vw;
+    max-height: 85vw;
+    width: 23vw;
+    height: 32vw; 
+    padding: 1vw 1.5vw;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0 2vw 1vw 2vw;
+    box-shadow: 5px 5px red;
+    text-align: center;
+}
+.vision-pic{
+    padding: 1vw 0;
+}
+.vision-head{
+    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: var(--all-blue);
+}
+.vision-box ul li{
+    font-size: 0.9vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: var(--all-blue);
+    /* line-height: 1.3vw; */
+    text-align: left;
+    padding: 0.2vw 0;
+}
+@media (max-width: 768px) {
+    .about2 {
+        flex-direction: row;
+    }
+    .about2-parent{
+        padding: 0;
+    }
+    .vision{
+        display: flex;
+        flex-direction: column;
+    }
+    .vision-box {
+        width: 35vw;
+        height: 38vw; 
+        padding: 1vw;
+        margin: 3vw;
+    }
+    .vision-pic{
+        width: 17vw;
+        height: 15vw;
+    }
+  .vision-h1 {
+        padding: 0 2vw;
+        font-size: 3vw;
+    }
+    .vision-btn {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .about2 {
+        height: auto;
+    }
+    .about2-parent{
+        padding: 0;
+        flex-direction: row;
+    }
+    .vision{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0;
+    }
+    .vision-box {
+        width: 65vw;
+        height: 40vw; 
+        margin: 0vw 4vw 8vw 4vw;
+    }
+    .vision-pic{
+        width: 22vw;
+        height: 20vw;
+    }
+
+    .vision-btn {
+        padding: 1.5vw 6vw; 
+font-size: 2.3vw;
+    }
+
+    .vision-h1 {
+        font-size: 3.8vw; 
+    }
+}

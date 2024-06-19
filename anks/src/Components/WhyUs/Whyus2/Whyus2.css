@@ -1,0 +1,132 @@
+.whyus2 {
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-position: center;
+    background-size: cover;
+}
+
+.whyus2-h1 {
+    padding: 3vw 0;
+    padding-bottom: 0.5vw;
+    font-size: 2.5vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.whyus2-parent {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chose-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 65vw;
+    max-height: 85vw;
+    width: 20vw;
+    height: 30vw; 
+    padding: 4vw 1vw 1vw;
+    margin: 0 3vw;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+.chose-pic{
+    padding: 1vw 0;
+}
+.chose-head{
+    padding: 1.6vw 0 0;
+    font-size: 1.5vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.chose-p{
+    font-size: 0.9vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    padding: 1vw 1.4vw;
+    line-height: 1.1vw;
+    text-align: center;
+}
+.chose-btn {
+    text-align: center;
+    padding: 0.5vw 3vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+@media (max-width: 768px) {
+    .whyus2 {
+        flex-direction: row;
+    }
+    .whyus2-parent{
+        padding: 0;
+    }
+    .chose{
+        display: flex;
+        flex-direction: column;
+    }
+    .chose-box {
+        width: 35vw;
+        height: 38vw; 
+        padding: 1vw;
+        margin: 3vw;
+    }
+    .chose-pic{
+        width: 17vw;
+        height: 15vw;
+    }
+  .chose-h1 {
+        padding: 0 2vw;
+        font-size: 3vw;
+    }
+    .chose-btn {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .whyus2 {
+        height: auto;
+    }
+    .whyus2-parent{
+        padding: 0;
+        flex-direction: row;
+    }
+    .chose{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 0;
+    }
+    .chose-box {
+        width: 65vw;
+        height: 40vw; 
+        margin: 0vw 4vw 8vw 4vw;
+    }
+    .chose-pic{
+        width: 22vw;
+        height: 20vw;
+    }
+
+    .chose-btn {
+        padding: 1.5vw 6vw; 
+font-size: 2.3vw;
+    }
+
+    .chose-h1 {
+        font-size: 3.8vw; 
+    }
+}

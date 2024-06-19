@@ -1,0 +1,44 @@
+:root {
+    --all-red: #dc0005; 
+    --all-blue: #000e31; 
+  }
+
+  
+/* @media (min-width:1850px){
+    .nav-items{
+        padding-right: 9vw;
+    }
+    .nav-items ul li a{
+        padding: 2vw;
+        font-size: 1.3vw;
+    }
+    .nav-btn{
+        font-size: 1.3vw;
+    }
+    }
+    .Camp-logo{
+        width: 5vw;
+        height: 20%;
+    }
+
+     */
+     .Camp-logo{
+       padding-left: 7vw;
+    }
+     .navbar{
+        background-color: white;
+     }
+
+     .nav-items ul li a{
+        padding: 0 2vw;
+        font-size: 1.1vw;
+        font-weight: 600;
+        font-family: "Montserrat" sans-serif;
+        color: var(--all-blue);
+     }
+
+     .nav-items ul li a:hover{
+     text-decoration: underline;
+   color: var(--all-red);
+     }
+

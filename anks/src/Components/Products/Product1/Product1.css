@@ -1,0 +1,111 @@
+:root {
+    --all-red: #dc0005; 
+    --all-blue: #000e31; 
+  }
+
+.Product1{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+.Product1-h1{
+    text-align: center;
+    padding: 3vw 0;
+    font-size:3.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 768px) {
+    .product1-parent{
+        padding: 0;
+    }
+    .Product1-h1{
+        padding: 3vw 0;
+        font-size:5vw;
+    }
+    .items{
+        display: flex;
+        flex-direction: row;
+    }
+    .item-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 27vw;
+        height: 47vw; 
+        padding: 1vw;
+    }
+    .item-box img{
+        width: 20vw;
+        height: 15vw;
+    }
+    .item-box h1 {
+        padding: 0 2vw;
+        font-size: 3vw;
+        font-weight: 900;
+    }
+    .product1-btn {
+        padding: 0.5vw 3vw;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .Product1{
+      height: auto;
+    }
+    .Product1-h1{
+        margin: 5vw 0 0;
+        padding: 11vw 0 4vw;
+        font-size:6vw;
+    }
+    .product1-parent{
+        flex: 0 0;
+        padding: 4vw 0 0;
+        flex-direction: column;
+        margin: 6vw 0 0;
+    }
+
+    .item-h1{
+        font-size: 6.5vw;
+        margin: 0;
+        padding: 0;
+    }
+    .items{
+        height: auto;
+        display: flex;
+        flex: 0 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+padding-top: 25vw;
+    }
+    .item-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 65vw;
+        height: 40vw; 
+        padding: 3vw;
+        margin: 0 3vw 7vw ;
+    }
+    .item-box img{
+        width: 20vw;
+        height: 15vw;
+    }
+    .item-box h1 {
+        padding: 0 2vw;
+        font-size: 4vw;
+    }
+    .product1-btn {
+        padding: 0.5vw 3vw;
+        font-size: 2vw;
+    }
+}

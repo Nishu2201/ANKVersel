@@ -1,0 +1,67 @@
+.whyus1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+  }
+  .whyus1-h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 3.5vw;
+    padding: 3vw 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .whyus1-parent {
+    flex: 1; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .whyus1-left{
+    width: 50%;
+    height: auto;
+    padding: 0 1vw 1vw 7vw;
+  }
+  .whyus1-h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 2.3vw;
+    color: white;
+  }
+ .whyus1-h2 span{
+  color: var(--all-red);
+ }
+  .whyus1-p {
+    padding: 1vw 0;
+    font-size: 1.2vw;
+    padding-right: 4vw;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .whyus1-btn {
+    text-align: center;
+    padding: 0.5vw 4vw;
+    color: white;
+    margin: 1vw 0;
+    font-size: 1.1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .whyus1-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .whyus1-pic{
+    padding: 3.4vw 0 1vw;
+  }

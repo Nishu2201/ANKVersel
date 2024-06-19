@@ -1,0 +1,106 @@
+.about1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+  }
+  .about-h1 {
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5vw;
+    padding: 3vw 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .about-parent {
+    flex: 1; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .about-left{
+    width: 50%;
+    height: auto;
+    padding: 1vw 1vw 1vw 7vw;
+  }
+  .about-h2 {
+    font-weight: 900;
+    font-size: 2.3vw;
+    color: white;
+    text-transform: uppercase;
+  }
+ 
+  .about-p {
+    padding: 1vw 0;
+    font-size: 1.2vw;
+    padding-right: 4vw;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .about-btn {
+    text-align: center;
+    padding: 0.5vw 4vw;
+    color: white;
+    margin: 1vw 0;
+    font-size: 1.1vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .about-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about1-pic{
+    padding: 3.4vw 0 1vw;
+  }
+  @media screen and (max-width:920px){
+    .about-parent {
+      flex: 0;
+      padding-top: 12vw;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .about-left{
+      width: 100%;
+      height: 50%;
+      background-color: rgba(0, 255, 255, 0.122);
+      padding: 8vw 4vw 0;
+      flex: 0;
+    }
+    .about-h1 {
+      font-size: 5.3vw;
+      padding: 12vw 0 0;
+    }
+    
+   
+    .about-right{
+      width: 100%;
+      height: auto;
+      flex:0;
+    }
+  .about1-pic{
+    width: 30%;
+  }
+    .about-p {
+      font-size: 2.5vw;
+      padding:4vw 0;
+    }
+    
+    .about-btn {
+      padding: 1.1vw 9vw;
+      font-size: 3vw;
+      margin: 2vw;
+    }
+  }

@@ -1,0 +1,37 @@
+/* .logo-Comp{
+    width: 20%;
+    height: auto;
+} */
+    .follow h5{
+        color: var(--all-blue);
+        font-size: 1vw;
+        font-weight: 700;
+        padding-bottom: 0.25vw;
+    }
+    .Quick h4{
+        color: var(--all-blue);
+        font-weight: 700;
+        font-size: 1.2vw;
+        padding-bottom: 0.5vw;
+    }
+    .Quick ul li{
+        color: var(--all-blue);
+        font-weight: 600;
+        font-size: 1vw;
+    }
+    .address h4{
+        color: var(--all-blue);
+        font-weight: 700;
+        font-size: 1.2vw;
+        padding-bottom: 0.5vw;
+    }
+    .address p{
+        color: var(--all-blue);
+        font-weight: 600;
+        font-size: 1vw;
+    }
+    .copyright-p{
+        padding: 1vw 0;
+        font-size: 0.9vw;
+        color: white;
+    }

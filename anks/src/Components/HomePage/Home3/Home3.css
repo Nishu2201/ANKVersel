@@ -1,0 +1,144 @@
+.home3 {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+
+.home3-h1 {
+    padding: 1.5vw 0;
+    padding-bottom: 0.5vw;
+    font-size: 2vw;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home3-parent {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12vw;
+}
+
+.home3-btn {
+    text-align: center;
+    padding: 0.5vw 3vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.hmcard {
+    margin: 1.5vw 0;
+}
+
+.hmcard-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 65vw;
+    max-height: 85vw;
+    width: 15vw;
+    height: 16vw; 
+    padding: 1vw;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 0 2vw 1vw 2vw;
+    box-shadow: 5px 5px red;
+    text-align: center;
+}
+
+ .hmcard-h1 {
+    color: var(--all-blue);
+    padding: 0 2vw;
+    font-size: 1vw;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .home3 {
+        flex-direction: column;
+    }
+    .home3-h1 {
+        padding: 5vw 0 0 0;
+        font-size: 5vw;
+    }
+    .home3-parent{
+        padding: 0;
+        flex-direction: row;
+    }
+    .hmcard{
+        display: flex;
+        flex-direction: row;
+    }
+    .hmcard-box {
+        width: 27vw;
+        height: 38vw; 
+        padding: 1vw;
+        margin: 2vw 3vw;
+    }
+    .hmcard-pic{
+        width: 12vw;
+        height: 14vw;
+    }
+  .hmcard-h1 {
+        padding: 0 2vw;
+        font-size: 2.8vw;
+    }
+    .home3-btn {
+        font-size: 2vw;
+        margin-bottom: 1vw;
+    }
+}
+@media (max-width: 480px) {
+    .home3 {
+        flex-direction: column;
+        padding: 3vw 0;
+    }
+    .home3-h1 {
+        padding: 4vw 0 0 0;
+        font-size: 7vw;
+    }
+    .home3-parent{
+        padding: 5vw 0;
+        flex: 0;
+        flex-direction: row;
+    }
+    .hmcard{
+        display: flex;
+        flex-direction: column;
+    }
+    .hmcard-box {
+        width: 35vw;
+        height: 48vw; 
+        padding: 2vw;
+        margin:2vw 6vw 8vw;
+    }
+    .hmcard-pic{
+        width: 16vw;
+        height: 17vw;
+    }
+  .hmcard-h1 {
+        padding: 0 2vw;
+        font-size: 3.8vw;
+    }
+    .home3-btn {
+        font-size: 3vw;
+        padding: 0.98vw 7vw;
+        margin-bottom: 1vw;
+    }
+}
+@media (max-width: 360px) {
+.home3{
+    height: auto;
+}
+}

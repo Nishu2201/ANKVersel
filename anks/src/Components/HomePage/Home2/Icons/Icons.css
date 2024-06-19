@@ -1,0 +1,65 @@
+
+  .Scan3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.2vw;
+    background-color: white;
+  }
+
+  .Scan3Botm{
+    margin: 0;
+    display: flex;
+    padding: 0.4vw 10vw;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+    }
+.Downloads{
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Scan3-h1 {
+  padding: 0;
+  margin: 0; 
+  margin-left: 12%;
+  margin-top: 5%;
+  font-size: 1vw;
+  color: var(--all-blue);
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (max-width:1024px){
+  .Scan3-h1 {
+    font-size: 1.78vw;
+  }
+  .Scan3Botm{
+    padding: 0.7vw 12vw;
+    }
+}
+@media screen and (max-width:550px){
+  .Scan3-h1 {
+    font-size: 2.2vw;
+  }
+  .Scan3Botm{
+    padding: 0.7vw 8vw 0.7vw 4vw;
+    margin: 0 3vw;
+    }
+
+  .scan-pics{
+    width: 60%;
+    height: 28%;
+  }
+  .scan-pics1{
+    width: 65%;
+  }
+}
