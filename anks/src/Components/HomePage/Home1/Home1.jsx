@@ -13,7 +13,6 @@ const Home1 = () => {
       <div className='home-parent'>
         <div className='home-left'>
           <h1 className='home-h1'>
-            {/* Proudly selling <span>quality bearings</span> in India */}
             <span>ANK Overseas</span> 
           </h1>
           <p className='home-p'>"Your Trusted Source for
@@ -23,9 +22,15 @@ const Home1 = () => {
           </a>
         </div>
         <div className='home-right'>
-         <img src={whatsp} alt="" className='home-icons'/>
-         <img src={masage} alt="" className='home-icons'/>
-         <img src={mail} alt="" className='home-icons'/>
+        <a href="https://web.whatsapp.com" >
+    <img src={whatsp} alt="WhatsApp" className='home-icons'/>
+</a>
+<a href="sms:+1234567890" > 
+    <img src={masage} alt="Message" className='home-icons'/>
+</a>
+<a href="mailto:example@example.com" > 
+    <img src={mail} alt="Email" className='home-icons'/>
+</a>
         </div>
       </div>
     </div>

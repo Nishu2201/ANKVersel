@@ -7,14 +7,21 @@
 }
 
 .Product2-h1 {
-    padding: 2vw 0;
+    padding: 0vw 0 1vw;
     padding-bottom: 0.5vw;
     font-size: 2.5vw;
     font-weight: 700;
     color: white;
     text-align: center;
 }
-
+.Product2-P1 {
+    padding: 1vw 18vw;
+    padding-bottom: 0.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
 .Product2-parent {
     flex: 1;
     display: flex;
@@ -106,6 +113,10 @@
         padding: 2vw 0 0;
         font-size: 5vw;
     }
+    .Product2-P1 {
+        padding: 2vw 18vw;
+        font-size: 2.3vw;
+    }
     .Product2-parent{
         padding:0 0 3vw;
         flex-direction: row;
@@ -160,8 +171,12 @@
         height: auto;
     }
     .Product2-h1 {
-        padding: 4vw 0;
+        padding: 1vw 0;
         font-size: 5vw;
+    }
+    .Product2-P1 {
+        padding: 1vw 8vw 3vw;
+        font-size: 2.8vw;
     }
     .items2{
         margin: 0;
