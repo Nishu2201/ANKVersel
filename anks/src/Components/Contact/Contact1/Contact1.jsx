@@ -14,7 +14,7 @@ const Contact1 = () => {
            contact us
           </h1>
       <div className='contact-parent'>
-        <div className='contact-left flex flex-col-3 md:flex-row justify-center items-center mx-4 md:mx-9'>
+        <div className='contact-left flex flex-col-3 md:flex-row justify-center items-center '>
 <div className='contact2-box  bg-center bg-cover bg-no-repeat ' style={{ backgroundImage: `url(${adres})`}}>
   
   <h1 className='contact2-h1'>Address</h1>

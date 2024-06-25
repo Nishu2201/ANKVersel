@@ -7,9 +7,10 @@
 }
 
 .home4-h1 {
-    padding: 3vw 20vw;
+    padding: 2vw 15vw 1vw;
     padding-bottom: 0.5vw;
-    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.4vw;
     font-weight: 900;
     color: white;
     text-align: center;
@@ -18,7 +19,7 @@
     color: var(--all-red);
 }
 .home4-parent {
-   padding-top: 4vw;
+   padding-top: 1vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -41,6 +42,8 @@
     align-items: center;
     padding: 1vw 0;
     text-align: center;
+    width: 33.333%;
+    height: 100%;
 }
 
  .qualities-h1 {
@@ -51,9 +54,10 @@
     font-family: "Montserrat", sans-serif;
     text-transform: capitalize;
 }
-.qualities-p1 {
+.qualities-p1,
+.qualities-p2 {
     color: white;
-    padding: 0 9vw;
+    padding: 0 4vw;
     font-family: "Montserrat", sans-serif;
     font-size: 1vw;
     line-height: 1.1vw;
@@ -75,14 +79,14 @@
 .quality-div2,
 .quality-div3 {
     width:33.33%;
-    height: 100%;
+    height: 40vh;
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
     text-align: center;
-    padding: 3vw 4vw;
+    padding: 2vw 2vw 3vw;
     padding-bottom: 0;
     background-size: cover;
 }
@@ -96,7 +100,16 @@
 
 .quality-p {
     padding: 1vw 3vw;
-    padding-bottom: 2vw;
+    padding-bottom: 0.25vw;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1vw;
+    line-height: 1.3vw;
+    font-weight: 500;
+}
+.quality-p2 {
+    padding: 0 3vw;
+    padding-bottom: 1vw;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 1.1vw;
@@ -115,6 +128,7 @@
     text-transform: capitalize;
 }
 .quality-btn{
+    margin-top: 1.5vw;
     color: var(--all-red);
 }
 
@@ -133,8 +147,8 @@
         flex-direction: row;
     }
     .qualities-box {
-        width: auto;
-        height: auto; 
+        /* width: 100%;
+        height: auto;  */
         padding: 1vw 0;
         margin: 0vw 3vw 3vw;
     }
@@ -148,22 +162,27 @@
         font-size: 2vw;
         line-height: 3vw;
     }
-
+    .qualities-p2 {
+       display: none;
+    }
     .quality-div1,
     .quality-div2,
     .quality-div3 {
         width:100%;
         height: auto;
-        padding: 3vw 15vw;
+        padding: 1.5vw 10vw;
     }
     .quality-h1 {
         font-size: 3vw;
     }
     
     .quality-p {
-        padding: 2vw 5vw;
+        padding: 2vw 2vw;
         font-size: 2.3vw;
         line-height: 3vw;
+    }
+    .quality-p2{
+        display: none;
     }
     .Home4-btn,
 .quality-btn {
@@ -171,27 +190,38 @@
     margin-bottom: 2vw;
     font-size: 2.5vw;
 }
+.quality-btn{
+    margin-top: 0;
+}
 }
 @media (max-width: 769px) {
     .home4-h1 {
-        padding: 4vw 10vw 0.5vw;
+        padding: 4vw 6vw 0.5vw;
+        font-size: 2vw;
     }
     .home4-parent{
-        padding: 5vw 0;
+        padding: 3vw 0;
     }
-    
+    .qualities-box{
+        width: 40%;
+        height: 100%;
+    }
   .qualities-h1 {
         padding: 0;
         font-size: 2.3vw;
     }
-
+    .qualities-p1 {
+        padding: 0 0vw;
+        font-size: 1.7vw;
+        line-height: 3vw;
+    }
 
     .quality-div1,
     .quality-div2,
     .quality-div3 {
         width:100%;
         height: auto;
-        padding: 3vw 15vw;
+        padding: 1.8vw 15vw;
     }
     .quality-h1 {
         font-size: 3vw;
@@ -211,14 +241,17 @@
 }
 @media (max-width: 550px) {
     .home4-h1 {
-        padding: 4vw 10vw 0.5vw;
-        font-size: 3.2vw;
+        padding: 2vw 4vw 0.5vw;
+        font-size: 2.2vw;
     }
     .home4-parent{
         padding: 4vw 0;
     }
     .qualities-pic{
         width: 30%;
+    }
+    .qualities-p2{
+     display: none;
     }
 }
 @media (max-width: 480px) {
@@ -228,21 +261,26 @@
     }
     .home4-h1 {
         padding: 3vw 4vw 0.5vw;
-        font-size: 3.76vw;
+        font-size: 2.5vw;
     }
     .home4-parent{
-        padding: 3vw 0;
+        padding: 1vw 0;
+    }
+    .qualities-box{
+        padding: 0;
+        width: 100%;
+        height: auto;
     }
     .qualities-pic{
-        width: 15%;
+        width: 13%;
     }
     .qualities-h1 {
         padding: 0;
         font-size: 3.9vw;
     }
     .qualities-p1 {
-        padding: 0 6vw;
-        font-size: 3vw;
+        padding: 0 2vw;
+        font-size: 2.5vw;
         line-height: 4.3vw;
     }
     .quality-h1 {
@@ -250,7 +288,7 @@
     }
     
     .quality-p {
-        padding: 2vw 9vw;
+        padding: 2vw 6vw;
         font-size: 2.85vw;
         line-height: 3.6vw;
     }
@@ -263,14 +301,20 @@
 @media (max-width: 385px) {
     .home4-h1 {
         padding: 3vw 4vw 0.5vw;
-        font-size: 4vw;
+        font-size: 3vw;
+    }
+    .home4-parent{
+        padding: 2vw 0;
     }
     .qualities-box{
         max-height: 55vw;
     }
+    .qualities-pic{
+        width: 11%;
+    }
     .qualities-h1 {
         padding: 0;
-        font-size: 3.68vw;
+        font-size: 3.2vw;
     }
     .qualities-p1 {
         padding: 0 6vw;
@@ -282,14 +326,14 @@
     .quality-div3 {
         width:100%;
         height: auto;
-        padding: 1.8vw 15vw;
+        padding: 1.8vw 12vw;
     }
     .quality-h1 {
         font-size: 3.5vw;
     }
     
     .quality-p {
-        padding: 1vw 9vw 2vw;
+        padding: 1vw 6vw 2vw;
         font-size: 2.85vw;
         line-height: 3.6vw;
     }
@@ -302,35 +346,89 @@
 
 @media (max-width: 378px) {
     .home4-h1 {
-        padding: 3vw 4vw 2vw;
-        font-size: 3.5vw;
+        padding: 2vw 4vw 0vw;
+        font-size: 2.5vw;
+    }
+    .home4-parent{
+        padding: 0;
+    }
+    .qualities-pic{
+        width: 10%;
     }
     .qualities-box{
-        max-height: 55vw;
+        max-height: 50vw;
     }
     .qualities-h1 {
         padding: 0;
-        font-size: 3.68vw;
+        font-size: 2.5vw;
     }
     .qualities-p1 {
         padding: 0 6vw;
         font-size: 2.5vw;
-        line-height: 4.3vw;
+        line-height: 3.2vw;
     }
     .quality-div1,
     .quality-div2,
     .quality-div3 {
         width:100%;
         height: auto;
-        padding: 1.8vw 15vw;
+        padding: 1.8vw 10vw;
+    }
+    .quality-h1 {
+        font-size: 3.2vw;
+    }
+    
+    .quality-p {
+        padding: 1vw 5vw 2vw;
+        font-size: 2.85vw;
+        line-height: 3.6vw;
+    }
+    .Home4-btn,
+.quality-btn {
+    padding:1vw 7vw;
+    font-size: 2.8vw;
+}
+}
+@media (max-width: 365px) {
+    .home4-h1 {
+        padding: 3vw 4vw 0vw;
+        font-size: 2.9vw;
+    }
+    .home4-parent{
+        padding-top: 2vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .qualities{
+        flex: 1;
+    }
+    .qualities-pic{
+        width: 10%;
+    }
+
+    .qualities-h1 {
+        padding: 0;
+        font-size: 2.8vw;
+    }
+    .qualities-p1 {
+        padding: 0 6vw;
+        font-size: 2.6vw;
+        line-height: 3.4vw;
+    }
+    .quality-div1,
+    .quality-div2,
+    .quality-div3 {
+        width:100%;
+        height: auto;
+        padding: 1.8vw 10vw;
     }
     .quality-h1 {
         font-size: 3.5vw;
     }
     
     .quality-p {
-        padding: 1vw 9vw 2vw;
-        font-size: 2.85vw;
+        padding: 1vw 5vw 2vw;
+        font-size: 2.65vw;
         line-height: 3.6vw;
     }
     .Home4-btn,

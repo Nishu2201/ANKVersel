@@ -1,20 +1,20 @@
-.whyus1 {
+.product4 {
     height: 100vh;
     display: flex;
     flex-direction: column;
     background-position: center;
     background-size: cover;
   }
-  .whyus1-h1 {
+  .product4-h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    font-size: 3.5vw;
-    padding: 3vw 0;
+    font-size: 2.58vw;
+    padding: 1vw 18vw;
     color: white;
     text-align: center;
     text-transform: uppercase;
   }
-  .whyus1-parent {
+  .product4-parent {
     flex: 1; 
     display: flex;
     align-items: center; 
@@ -22,31 +22,32 @@
     font-family: "Montserrat", sans-serif;
   }
 
-  .whyus1-left{
+  .product4-left{
     width: 50%;
     height: auto;
     padding: 0 1vw 1vw 7vw;
   }
-  .whyus1-h2 {
+  .product4-h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 900;
-    font-size: 2.3vw;
+    font-size: 1.57vw;
     color: white;
   }
- .whyus1-h2 span{
+ .product4-h1 span{
   color: var(--all-red);
  }
-  .whyus1-p {
+  .product4-p {
     padding: 1vw 0;
     font-size: 1vw;
     padding-right: 4vw;
     font-weight: 600;
     color: white;
   }
-  .whyus1-p span {
+  .product4-p span {
+    font-size: 1.4vw;
     font-weight: 800;
   }
-  .whyus1-btn {
+  .product4-btn {
     text-align: center;
     padding: 0.5vw 4vw;
     color: white;
@@ -57,140 +58,148 @@
     text-transform: capitalize;
   }
   
-  .whyus1-right{
+  .product4-right{
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  .whyus1-pic{
+  .product4-pic{
+    width: 40%;
     padding: 3.4vw 0 1vw;
   }
 
   @media (max-width: 768px) {
 
-    .whyus1-h1 {
+    .product4-h1 {
       font-size: 5.3vw;
       padding: 16vw 0;
     }
-    .whyus1-parent {
+    .product4-parent {
       flex: 1; 
       flex-direction: column;
     }
-    .whyus1-left{
+    .product4-left{
       width: 100%;
       height: 50%;
-      padding: 3vw 8vw 2vw;
+      padding: 0 8vw 2vw;
       text-align: center;
     }
-    .whyus1-h2 {
+    .product4-h2 {
       font-size: 3.5vw;
       padding: 0 15vw;
     }
 
-    .whyus1-p {
+    .product4-p {
       padding: 1vw 0;
       font-size: 2.2vw;
       padding-right: 4vw;
     }
-
-    .whyus1-right{
+    .product4-p span {
+      font-size: 2.5vw;
+      font-weight: 800;
+    }
+    .product4-right{
       width: 50%;
       flex: 1;
       padding: 0;
     }
-    .whyus1-pic{
+    .product4-pic{
       width: 45%;
     }
   }
   @media (max-width: 550px) {
 
-    .whyus1-h1 {
+    .product4-h1 {
       font-size: 5.3vw;
       padding: 13vw 0;
     }
-    .whyus1-left{
-      padding: 3vw 8vw 1vw;
+    .product4-left{
+      padding: 1vw 8vw 1vw;
     }
-    .whyus1-h2 {
+    .product4-h2 {
       font-size: 3.2vw;
       padding: 0 4vw;
     }
-    .whyus1-p {
+    .product4-p {
       padding: 1vw 0;
       font-size: 2.25vw;
     }
+    
   }
   @media (max-width: 480px) {
 
-    .whyus1-h1 {
+    .product4-h1 {
       font-size: 5.3vw;
-      padding: 25vw 0;
+      padding: 10vw 0 ;
     }
-    .whyus1-left{
-      padding: 12vw 4vw 10vw;
+    .product4-left{
+      padding: 0vw 4vw 10vw;
     }
-    .whyus1-h2 {
+    .product4-h2 {
       font-size: 4vw;
       padding: 0 4vw;
     }
-.whyus1-right{
+.product4-right{
   justify-content: flex-start;
 }
-    .whyus1-p {
-      padding: 1vw 0 3vw;
+    .product4-p {
+      padding: 1vw 0 5vw;
       font-size: 2.95vw;
     }
-
-    .whyus1-pic{
-      padding-top: 10vw;
-      width: 70%;
+    .product4-p span {
+      font-size: 3.4vw;
+      font-weight: 800;
+    }
+    .product4-pic{
+      padding-top: 17vw;
+      width: 78%;
     }
   }
   @media (max-width: 381px) {
 
-    .whyus1-h1 {
-      padding: 18vw 0;
+    .product4-h1 {
+      padding: 10vw 0 5vw;
     }
-    .whyus1-left{
+    .product4-left{
       padding: 2vw 4vw 4vw;
     }
-    .whyus1-h2 {
-      font-size: 3vw;
-      padding: 0 12vw;
+    .product4-h2 {
+      font-size: 4vw;
+      padding: 0;
     }
 
-    .whyus1-p {
-      padding:4vw 4vw ;
+    .product4-p {
+      padding:2vw 4vw ;
       font-size: 2.5vw;
     }
 
-    .whyus1-pic{
-      padding-top: 4vw;
-      width: 65%;
+    .product4-pic{
+      padding-top: 12vw;
+      width: 72%;
     }
   }
   @media (max-width: 365px) {
 
-    .whyus1-h1 {
-      padding: 19vw 0;
+    .product4-h1 {
+      padding: 10vw 0 5vw;
     }
-    .whyus1-left{
-      padding: 12vw 4vw 3vw;
+    .product4-left{
+      padding: 5vw 4vw 4vw;
     }
-    .whyus1-h2 {
+    .product4-h2 {
       font-size: 4vw;
       padding: 0 12vw;
     }
 
-    .whyus1-p {
-      padding:2vw 4vw 3vw;
+    .product4-p {
+      padding:2vw 4vw 4vw;
       font-size: 2.4vw;
     }
 
-    .whyus1-pic{
-      padding-top: 4vw;
-      width: 65%;
+    .product4-pic{
+      padding-top: 18vw;
+      width: 79%;
     }
   }

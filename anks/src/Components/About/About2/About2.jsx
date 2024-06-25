@@ -14,54 +14,52 @@ const About2 = () => {
       src={vision} 
       alt="Experience and Expertise" className='vision-pic'
     />
-    <h1 className='vision-head'>Vission</h1>
+    <h1 className='vision-head'>Vision</h1>
   <ul>
-    <li>Be the world's leading supplier of high
-quality bearings.
+    <li><span>World's Leading Supplier:</span> Be the top global supplier of high-quality bearings.
+
 </li>
 <li>
-Drive innovation in the bearing industry.
+<span>Drive Innovation:</span> Be the top global supplier of high-quality bearings.</li>
+<li>
+<span>Foster Sustainability:</span>Encourage environmentally friendly methods and long-term growth.
 </li>
 <li>
-Foster sustainable practices and growth.
+<span>Set Standards:</span>Develop Industry Benchmarks for Reliability and Performance.
+
 </li>
 <li>
-Set industry standards for reliability and 
-performance.
+<span>Form Partnerships:</span>Develop long-term ties with clients and suppliers.
+
 </li>
 <li>
-Build lasting partnerships with clients 
-and suppliers.
+<span>Ecor-Friendly Development:</span> Promote environmentally friendly production by implementing
+green manufacturing techniques.
 </li>
-<li>
-Promote eco-friendly manufacturing 
-processes.</li>
   </ul>
 </div>
 
 <div className='vision-box  '>
     <img 
       src={mision} 
-      alt="Comprehensive Services" className='vision-pic'
+      alt="Comprehensive Services" className='mision-pic'
     />
     <h1 className='vision-head'>Mission</h1>
   <ul>
-    <li>Deliver exceptional quality bearings to 
-    meet customer needs.
+    <li><span>Deliver Quality Bearings:</span> To satisfy the demands of our customers, we provide bearings of
+    excellent quality.
 </li>
 <li>
-Provide unparalleled customer service 
-and support.</li>
-<li>
-Innovate with cutting-edge solutions to 
-adapt to market needs.</li>
-<li>
-Uphold the highest standards of integrity 
-and professionalism.
+<span>Customer Service:</span> Provide outstanding service and support.
 </li>
 <li>
-Create a collaborative and inclusive work 
-environment.
+<span>Innovative Solutions:</span>  Create cutting-edge solutions to fulfil market needs.</li>
+<li>
+<span>Authenticity and Expertise:</span>  Maintain the greatest level of integrity and ethics.
+
+</li>
+<li>
+<span>Collaborative Work Environment:</span> Create a collaborative and welcoming workplace.
 </li>
 
   </ul>

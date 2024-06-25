@@ -101,12 +101,14 @@
     text-transform: capitalize;
 }
 @media (max-width: 768px) {
-    .Product2 {
-        flex-direction: row;
-        background-color: aqua;
+   
+    .Product2-h1 {
+        padding: 2vw 0 0;
+        font-size: 5vw;
     }
     .Product2-parent{
-        padding: 0;
+        padding:0 0 3vw;
+        flex-direction: row;
     }
     .items2{
         display: flex;
@@ -129,38 +131,74 @@
     .Product2-btn {
         font-size: 2vw;
     }
+    .items3-divs{
+        margin: 1vw 0 3vw;
+        width: 85%;
+        border-radius: 35px;
+    }
+    .items3-div {
+        width: 50%;
+        margin: 2vw 0;
+        padding: 2vw 2vw; 
+    }
+    
+    .items3-divh1 {
+        font-size: 3.5vw;
+    }
+    .div-p{
+        padding: 1vw 0;
+        font-size: 2vw;
+    }
+    .div-btn {
+        padding: 0.85vw 7vw;
+        font-size:2vw;
+    }
 }
 
 @media (max-width: 480px) {
     .Product2 {
         height: auto;
     }
-    .Product2-parent{
-        padding: 0;
-        flex-direction: row;
+    .Product2-h1 {
+        padding: 4vw 0;
+        font-size: 5vw;
     }
     .items2{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
         margin: 0;
     }
     .items2-box {
-        width: 65vw;
-        height: 40vw; 
+        width: 39vw;
+        height: 50vw; 
         margin: 0vw 4vw 8vw 4vw;
     }
     .items2-pic{
-        width: 22vw;
-        height: 20vw;
+        width: 17vw;
+        height: 15vw;
     }
-
+  .items2-h1 {
+        padding: 0 2vw;
+        font-size: 5vw;
+    }
     .Product2-btn {
-        padding: 1.5vw 6vw; 
-font-size: 2.3vw;
+        font-size: 3vw;
+        padding: 0.9vw 5vw;
+        margin-bottom: 2vw;
     }
-
-    .items2-h1 {
-        font-size: 3.8vw; 
+    .items3-divs{
+        margin: 1vw 0 3vw;
+        width: 90%;
+        border-radius: 20px;
+        padding-left: 1vw;
+    }
+    .items3-divh1 {
+        font-size: 3.9vw;
+    }
+    .div-p{
+        padding: 1vw 0;
+        font-size: 2.2vw;
+    }
+    .div-btn {
+        padding: 0.85vw 7vw;
+        font-size:2.3vw;
     }
 }

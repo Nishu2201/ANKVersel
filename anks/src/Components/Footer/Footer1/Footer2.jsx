@@ -14,7 +14,7 @@ const Footer2 = () => {
   return (
     <footer className="bg-cover bg-center bg-no-repeat  w-full" style={{ backgroundImage: `url(${bg1})` }}>
       <div className="container mx-auto">
-        <div className=" foter-detail flex flex-wrap justify-between  px-36 py-12 pb-5 md:px-0">
+        <div className=" foter-detail flex  justify-between  px-36 py-12 pb-5 md:px-0">
           <div className="media-div flex flex-col items-center justify-center w-full md: lg:w-1/4 mb-8 mr-32 sm:w-full">
             <div className="logo-div  flex-cols items-center mb-4 justify-center z-40">
               <img src={logo} alt="Company Logo" className="lg:ml-5 logo-Comp" />
@@ -23,7 +23,7 @@ const Footer2 = () => {
               <h5 className=" font-normal font-lato text-sm mt-3 mb-2">Follow us on:</h5>
               <div className="media flex space-x-5 p-0 m-0 ">
               <a href="https://www.instagram.com/airaitechnologies/" target="_blank" rel="noopener noreferrer">
-              <BsInstagram size={30} color="#dc0005"/>
+              <BsInstagram size={30} color="#dc0005" className='social-icons'/>
     </a>
     <a href="https://www.facebook.com/AiraiTechnologies" target="_blank" rel="noopener noreferrer">
     <FaFacebookSquare size={30} color="#dc0005"/>
@@ -34,6 +34,7 @@ const Footer2 = () => {
               </div>
             </div>
           </div>
+          <div className='link-div'>
           <div className="Quick w-full  md:w-3/4 lg:w-1/4 mb-8 justify-items-stretch items-center">
             <h4 className=" font-black font-lato text-xl mb-2 justify-self-start">Quick Links</h4>
             <ul className=" font-normal font-lato text-base justify-self-start text-left">
@@ -45,21 +46,22 @@ const Footer2 = () => {
             </ul>
           </div>
           
-          <div className="address w-full md:w-3/4 lg:w-1/4  font-normal text-base mr-12">
+          <div className="address w-full   font-normal text-base mr-12">
             <h4 className=" font-black font-lato text-xl mb-2">Contact us</h4>
-            <p className="pr-16 leading-9">
-              <img src={location} alt="Address" className="w-4 h-4 inline-block mr-2" />
+            <p className="pr-16 leading-9 p-2">
+              <img src={location} alt="Address" className="w-4 h-4 inline-block mr-2 adres-pics" />
               F-177,2nd floor, Kailash Tower, Phase-8b, Industrial Area, Sector 74,
               Mohali, 140308, India
             </p>
-            <p className="pr-16 leading-9">
-              <img src={call} alt="Phone" className="w-4 h-4 inline-block mr-2" />
+            <p className="pr-16 leading-9 p-2">
+              <img src={call} alt="Phone" className="w-4 h-4 inline-block mr-2 adres-pics" />
               +91 98771-50016
             </p>
-            <p className="pr-16 leading-9">
-              <img src={mail} alt="Email" className="w-4 h-4 inline-block mr-2" />
+            <p className="pr-16 leading-9 p-2">
+              <img src={mail} alt="Email" className="w-4 h-4 inline-block mr-2 adres-pics" />
               hr.manager@airai.games
             </p>
+          </div>
           </div>
         </div>
         {/* Bottom Section */}

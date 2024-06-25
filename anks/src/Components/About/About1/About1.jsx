@@ -14,16 +14,20 @@ const About1 = () => {
       <div className='about-parent'>
         
         <div className='about-left'>
-          <h1 className='about-h2'>
+          {/* <h1 className='about-h2'>
             Discover Our Commitment to Excellence and Innovation
-          </h1>
-          <p className='about-p'>"At ANK Overseas, we pride ourselves on delivering 
-high-quality bearings to a wide range of industries around 
-the world. Sourced from reputable manufacturers, our 
-products are known for their durability and precision. We 
-are committed to exceptional customer service and building 
-lasting partnerships with our clients."</p>
-          <a href='/contact'>
+          </h1> */}
+          <p className='about-p'>"At ANK Overseas, we take pleasure in providing exceptional bearing services to an extensive
+variety of industries throughout the world. We have built a reputation for our dependable and
+precise products, coming from well-established suppliers. We are devoted to improving
+customer service and forging lasting relationships with our patrons."</p>
+<p className='about-p2'>"At ANK Overseas, our commitment to excellence and innovation is the core of our operations.
+We guarantee that every bearing is chosen from trustworthy suppliers and meets our high
+criteria for durability and accuracy. This devotion ensures that our products can survive harsh
+circumstances while providing dependable efficiency, keeping your operations operating
+smoothly.
+"</p>
+<a href='/contactus'>
           <button className='about-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A] '>Get Quote</button>
           </a>
         </div>

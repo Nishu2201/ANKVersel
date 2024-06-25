@@ -1,24 +1,25 @@
 import React, { useState } from 'react';
+import './Home5.css';
 import axios from 'axios';
 import bg from '../../../images/Homepage/form/bg_.png';
-import './Home5.css';
+
 const Card = (props) => (
-  <div className="form-div flex items-center justify-center bg-[#021033] rounded-md pb-5 pt-12 rounded-lg w-11/12 max-w-11/12 mx-auto">
+  <div className="form-div flex rounded-md rounded-lg ">
     {props.children}
   </div>
 );
 
 const Form = (props) => (
-  <form className="fields space-y-2" onSubmit={props.onSubmit}>
+  <form className="fields space-y-2 " onSubmit={props.onSubmit}>
     {props.children}
   </form>
 );
 
 const TextInput = (props) => (
-  <div className="relative mb-1 sm:mb-2" style={{ width: '100%' }}>
+  <div className="relative mb-1 sm:mb-2 " style={{ width: '100%' }}>
     <label
-      className={`absolute left-3 -top-2.5 px-1 z-10 text-white font-bold rounded-md transition-all duration-200 ease-in-out ${props.focus ? 'bg-slate-500 px-6 py-1' : ''} ${props.focus || props.value ? 'bg-slate-500 px-6 py-1 text-sm' : 'top-3 text-sm'}`}
-      htmlFor={props.name}
+      className={`absolute left-3 -top-2.5 px-1 z-10 text-white  rounded-md transition-all duration-200 ease-in-out ${props.focus ? 'bg-slate-500 px-6 py-1' : ''} ${props.focus || props.value ? 'bg-slate-500 px-6 py-1 text-sm' : 'top-3 text-sm'}`}
+      htmlFor={props.id}
     >
       {props.label}
     </label>
@@ -42,13 +43,13 @@ const TextInput = (props) => (
 const TextArea = (props) => (
   <div className="relative mb-2">
     <label
-      className={`absolute left-3 -top-2.5 px-1 z-10 text-white font-bold rounded-md transition-all duration-200 ease-in-out ${props.focus || props.value ? 'text-sm bg-slate-500 px-6 py-1' : 'top-3 text-sm'}`}
+      className={`absolute left-3 -top-2.5 px-1 z-10 text-white  rounded-md transition-all duration-200 ease-in-out ${props.focus || props.value ? 'text-sm bg-slate-500 px-6 py-1' : 'top-3 text-sm'}`}
       htmlFor={props.id}
     >
       {props.label}
     </label>
     <textarea
-      className={`mt-4 block  px-4 py-4 text-base text-white bg-transparent border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 z-0 focus:border-transparent transition-all duration-200 ease-in-out ${props.focus || props.value ? 'pt-6' : 'pt-3'}`}
+      className={`mt-4 block w-full h-36 px-4 py-2 text-base text-white bg-transparent border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-500 z-0 focus:border-transparent transition-all duration-200 ease-in-out ${props.focus || props.value ? 'pt-6' : 'pt-3'}`}
       id={props.id}
       name={props.name}
       value={props.value}
@@ -64,7 +65,7 @@ const TextArea = (props) => (
 );
 
 const Button = (props) => (
-  <button className=' form-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]  mt-2 text-white text-lg font-bold'>
+  <button className='form-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A] py-3 sm:py-4 px-16 sm:px-24 mt-2 text-white text-lg font-bold'>
     {props.children}
   </button>
 );
@@ -171,20 +172,17 @@ const Home5 = () => {
         data,
       };
       const response = await axios(config);
-      console.log('hiii');
-      console.log(JSON.stringify(response.data));
-      console.log('param');
       setShowModal(true); // Show the success modal
 
       // Reset the form fields
       setFormData({
-        name: { name: 'name', label: 'Full name', value: '', focus: false, error: '' },
-        email: { name: 'email', label: 'E-mail Id', value: '', focus: false, error: '' },
-        company: { name: 'company', label: 'Company Name', value: '', focus: false, error: '' },
-        address: { name: 'address', label: 'Address', value: '', focus: false, error: '' },
-        product: { name: 'product', label: 'Products', value: '', focus: false, error: '' },
-        phone: { name: 'phone', label: 'Contact no.', value: '', focus: false, error: '' },
-        message: { name: 'message', label: 'Description', value: '', focus: false, error: '' },
+        name: { id: 'name', name: 'name', label: 'Full name', value: '', focus: false, error: '', autoComplete: 'name' },
+        email: { id: 'email', name: 'email', label: 'E-mail Id', value: '', focus: false, error: '', autoComplete: 'email' },
+        company: { id: 'company', name: 'company', label: 'Company Name', value: '', focus: false, error: '', autoComplete: 'organization' },
+        address: { id: 'address', name: 'address', label: 'Address', value: '', focus: false, error: '', autoComplete: 'address-line1' },
+        product: { id: 'product', name: 'product', label: 'Products', value: '', focus: false, error: '', autoComplete: 'off' },
+        phone: { id: 'phone', name: 'phone', label: 'Contact no.', value: '', focus: false, error: '', autoComplete: 'tel' },
+        message: { id: 'message', name: 'message', label: 'Description', value: '', focus: false, error: '', autoComplete: 'off' },
       });
     } catch (error) {
       console.error('There was an error!', error);
@@ -192,26 +190,30 @@ const Home5 = () => {
   };
 
   return (
-    <div className='home5 bg-cover bg-center h-screen lg:pt-6 child' style={{ backgroundImage: `url(${bg})` }}>
-      <div className=" frm-div flex items-center justify-center">
-        <div className=" form-cont">
+    <div className='home5 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${bg})` }}>
+      <div className="frm-div flex items-center justify-center">
+        <div className=" form-cont ">
           <Card>
             <Form onSubmit={handleSubmit}>
-              <h1 className="form-head text-3xl sm:text-4xl font-bold font-lato lg:mb-6 text-center text-white">Request a Quote Today</h1>
-              <div className=" field-grid grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <TextInput
-                  {...formData.name}
-                  onFocus={handleFocus}
-                  onBlur={handleBlur}
-                  onChange={handleChange}
-                />
-                <TextInput
-                  {...formData.phone}
-                  onFocus={handleFocus}
-                  onBlur={handleBlur}
-                  onChange={handleChange}
-                />
-              </div>
+              <h1 className="form-head text-white">Request a Quote Today</h1>
+              <div className="field-grid grid grid-cols-1 sm:grid-cols-2 gap-4">
+  <div className="col-span-1 sm:col-span-2">
+    <TextInput
+      {...formData.name}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+      onChange={handleChange}
+    />
+  </div>
+  <div className="col-span-1 sm:col-span-2">
+    <TextInput
+      {...formData.phone}
+      onFocus={handleFocus}
+      onBlur={handleBlur}
+      onChange={handleChange}
+    />
+  </div>
+</div>
               <div className="field-grid grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <TextInput
                   {...formData.email}

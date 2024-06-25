@@ -34,9 +34,10 @@
     text-transform: uppercase;
   }
  
-  .about-p {
+  .about-p,
+  .about-p2{
     padding: 1vw 0;
-    font-size: 1.2vw;
+    font-size: 1vw;
     padding-right: 4vw;
     font-weight: 600;
     color: white;
@@ -72,35 +73,202 @@
       justify-content: center;
       align-items: center;
     }
-    .about-left{
-      width: 100%;
-      height: 50%;
-      background-color: rgba(0, 255, 255, 0.122);
-      padding: 8vw 4vw 0;
-      flex: 0;
-    }
     .about-h1 {
       font-size: 5.3vw;
       padding: 12vw 0 0;
     }
+    .about-left{
+      width: 100%;
+      max-height: 50%;
+      padding: 10vw 7vw 6vw;
+      flex: 0;
+      text-align: center;
+    }
     
-   
+    .about-h2 {
+      font-weight: 900;
+      font-size: 3.5vw;
+      padding: 0;
+    }
+    .about-p,
+    .about-p2 {
+      font-size: 2vw;
+      padding:2vw 0 1vw;
+    }
+    .about-btn {
+      padding: 1.1vw 9vw;
+      font-size: 3vw;
+      margin: 1vw 0 2vw;
+    }
     .about-right{
       width: 100%;
-      height: auto;
+      max-height: 40%;
       flex:0;
     }
   .about1-pic{
     width: 30%;
   }
-    .about-p {
-      font-size: 2.5vw;
-      padding:4vw 0;
+  }
+  @media screen and (max-width:860px){
+    .about-h1 {
+      font-size: 5.3vw;
+      padding: 12vw 0 0;
+    }
+    .about-left{
+      padding: 8vw 7vw 6vw;
+      flex: 0;
+      text-align: center;
     }
     
-    .about-btn {
-      padding: 1.1vw 9vw;
+    .about-h2 {
+      font-weight: 900;
+      font-size: 3.38vw;
+      padding: 0;
+    }
+    .about-p,
+    .about-p2 {
+      font-size: 2vw;
+      padding:2vw 0;
+    }
+  }
+  @media screen and (max-width:769px){
+    .about-h1 {
+      font-size: 5.3vw;
+      padding: 13vw 0 0;
+    }
+    .about-parent {
+      flex: 0;
+      padding-top: 9vw;
+    }
+    .about-left{
+      padding: 4vw 7vw;
+      flex: 0;
+      text-align: center;
+    }
+    .about-p,
+    .about-p2 {
+      font-size: 1.86vw;
+      padding:2vw 0;
+    }
+    .about-h2 {
       font-size: 3vw;
-      margin: 2vw;
+      padding: 0 12vw;
+    }
+   
+    .about1-pic{
+      width: 25%;
+    }
+  }
+  @media screen and (max-width:550px){
+    .about-h1 {
+      font-size: 5.3vw;
+      padding: 14vw 0 0;
+    }
+    .about-parent {
+      padding-top: 3vw;
+    }
+  }
+  @media screen and (max-width:480px){
+    .about-h1 {
+      font-size: 6vw;
+      padding: 20vw 0 0;
+    }
+    .about-parent {
+      padding-top: 15vw;
+    }
+    .about-left{
+      padding: 10vw 7vw;
+    }
+    
+    .about-h2 {
+      font-size: 4vw;
+      padding: 2vw 2vw 0;
+    }
+    .about-p,
+    .about-p2 {
+      font-size: 2.5vw;
+      padding:2vw 0;
+    }
+    .about1-pic{
+      margin-top: 3vw;
+      width: 40%;
+    }
+  }
+  @media screen and (max-width:385px){
+    .about-h1 {
+      font-size: 6vw;
+      padding: 20vw 0 0;
+    }
+    .about-parent {
+      padding-top: 15vw;
+    }
+    .about-left{
+      padding: 10vw 7vw;
+    }
+    
+    .about-h2 {
+      font-size: 4vw;
+      padding: 0vw 5vw 2vw;
+    }
+    .about-p,
+    .about-p2 {
+      font-size: 2.2vw;
+      padding:2vw 0;
+    }
+    .about1-pic{
+      margin-top: 3vw;
+      width: 35%;
+    }
+  }
+  @media screen and (max-width:378px){
+    .about-h1 {
+      font-size: 6vw;
+      padding: 20vw 0 0;
+    }
+    .about-parent {
+      padding-top: 2vw;
+    }
+    .about-left{
+      padding: 6vw 7vw;
+    }
+    
+    .about-h2 {
+      font-size: 3.5vw;
+      padding: 2vw 5vw 0;
+    }
+    .about-p,
+    .about-p2{
+      font-size: 2.2vw;
+      padding:2vw 0;
+    }
+    .about1-pic{
+      margin-top: 3vw;
+      width: 32%;
+    }
+  }
+  @media screen and (max-width:365px) and (max-height:800px){
+    .about-h1 {
+      font-size: 6vw;
+      padding: 20vw 0 0;
+    }
+    .about-parent {
+      padding-top: 12vw;
+    }
+    .about-left{
+      padding: 6vw 7vw;
+    }
+    
+    .about-h2 {
+      font-size: 3.8vw;
+      padding: 2vw 5vw 0;
+    }
+    .about-p,
+    .about-p2 {
+      font-size: 2.5vw;
+      padding:2vw 0;
+    }
+    .about1-pic{
+      margin-top: 4vw;
+      width: 35%;
     }
   }

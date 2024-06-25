@@ -46,7 +46,7 @@
     max-width: 65vw;
     max-height: 85vw;
     width: 23vw;
-    height: 32vw; 
+    height: 35vw; 
     padding: 1vw 1.5vw;
     background-color: white;
     border: 2px solid white;
@@ -55,8 +55,10 @@
     box-shadow: 5px 5px red;
     text-align: center;
 }
-.vision-pic{
-    padding: 1vw 0;
+.vision-pic,
+.mision-pic
+{
+    padding: 0.5vw 0;
 }
 .vision-head{
     font-size: 2vw;
@@ -69,13 +71,21 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: var(--all-blue);
-    /* line-height: 1.3vw; */
     text-align: left;
     padding: 0.2vw 0;
 }
-@media (max-width: 768px) {
+.vision-box ul li span{
+    font-weight: 700;
+}
+@media (max-width: 920px) {
     .about2 {
         flex-direction: row;
+        padding-bottom: 10vw;
+    }
+    .about2-h1 {
+        padding: 3vw 0;
+        padding-bottom: 0;
+        font-size: 5vw;
     }
     .about2-parent{
         padding: 0;
@@ -83,56 +93,154 @@
     .vision{
         display: flex;
         flex-direction: column;
+        padding: 0;
+        margin: 0;
     }
     .vision-box {
         width: 35vw;
-        height: 38vw; 
-        padding: 1vw;
-        margin: 3vw;
+        height: 50vw; 
+        padding: 1vw 2vw;
+        margin: 5vw 0 3vw;
+    }
+    .vision-pic{
+        width: 10vw;
+        height: 8vw;
+    }
+    .mision-pic{
+        width: 10vw;
+        height: 10vw;
+    }
+    .vision-head{
+        font-size: 4vw;
+    }
+    .vision-box ul li{
+        font-size: 1.6vw;
+        padding: 0.2vw 0;
+    }
+    .vision-box ul li span{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .about2 {
+        flex-direction: row;
+        padding-bottom: 10vw;
+    }
+    .about2-h1 {
+        padding: 3vw 0;
+        padding-bottom: 0;
+        font-size: 5vw;
+    }
+    .about2-parent{
+        padding: 0;
+    }
+    .vision{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .vision-box {
+        width: 35vw;
+        height: 49vw; 
+        padding: 1vw 2vw;
+        margin: 5vw 0 3vw;
+    }
+    .vision-pic{
+        width: 10vw;
+        height: 8vw;
+    }
+    .mision-pic{
+        width: 10vw;
+        height: 10vw;
+    }
+    .vision-head{
+        font-size: 4vw;
+    }
+    .vision-box ul li{
+        font-size: 1.6vw;
+        padding: 0.2vw 0;
+    }
+    .vision-box ul li span{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .vision-box {
+        width: 55vw;
+        height: 80vw; 
+        margin: 0vw 4vw 12vw;
+    }
+    .about2-h1 {
+        padding: 6vw 0 3vw;
+        font-size: 7vw;
     }
     .vision-pic{
         width: 17vw;
         height: 15vw;
     }
-  .vision-h1 {
-        padding: 0 2vw;
-        font-size: 3vw;
+    .mision-pic{
+        width: 14vw;
+        height: 14vw;
     }
-    .vision-btn {
-        font-size: 2vw;
+    .vision-head{
+        font-size: 4vw;
+    }
+    .vision-box ul li{
+        font-size: 2.7vw;
+        padding: 0.2vw 0;
     }
 }
+@media (max-width: 381px) {
 
-@media (max-width: 480px) {
-    .about2 {
-        height: auto;
-    }
-    .about2-parent{
-        padding: 0;
-        flex-direction: row;
-    }
-    .vision{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        margin: 0;
-    }
     .vision-box {
-        width: 65vw;
-        height: 40vw; 
-        margin: 0vw 4vw 8vw 4vw;
+        width: 55vw;
+        height: 75.8vw; 
+        margin: 0vw 4vw 6vw;
+    }
+    .about2-h1 {
+        padding: 3vw 0 3vw;
+        font-size: 6vw;
     }
     .vision-pic{
-        width: 22vw;
-        height: 20vw;
+        width: 14vw;
+        height: 9vw;
     }
-
-    .vision-btn {
-        padding: 1.5vw 6vw; 
-font-size: 2.3vw;
+    .mision-pic{
+        width: 10vw;
+        height: 10vw;
     }
-
-    .vision-h1 {
-        font-size: 3.8vw; 
+    .vision-head{
+        font-size: 4vw;
+    }
+    .vision-box ul li{
+        font-size: 2.7vw;
+        padding: 0.2vw 0;
+    }
+}@media (max-width: 365px) {
+    .vision-box {
+        width: 55vw;
+        height: 80vw; 
+        margin: 0vw 4vw 12vw;
+    }
+    .about2-h1 {
+        padding: 6vw 0 3vw;
+        font-size: 7vw;
+    }
+    .vision-pic{
+        width: 17vw;
+        height: 15vw;
+    }
+    .mision-pic{
+        width: 14vw;
+        height: 14vw;
+    }
+    .vision-head{
+        font-size: 4vw;
+    }
+    .vision-box ul li{
+        font-size: 2.7vw;
+        padding: 0.2vw 0;
     }
 }

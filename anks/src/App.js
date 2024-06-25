@@ -7,6 +7,7 @@ import { About } from './Components/About/About/About';
 import { Whyus } from './Components/WhyUs/Whyus/Whyus';
 import Product from './Components/Products/Product/Product';
 import { Contact } from './Components/Contact/Contact/Contact';
+import Home5 from './Components/HomePage/Home5/Home5';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path='/whyus' element={<Whyus/>}/>
       <Route path='/products' element={<Product/>}/>
       <Route path='/contact' element={<Contact/>}/>
+      <Route path='/contactus' element={<Home5/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

@@ -13,10 +13,14 @@ const Home1 = () => {
       <div className='home-parent'>
         <div className='home-left'>
           <h1 className='home-h1'>
-            Proudly selling <span>quality bearings</span> in India
+            {/* Proudly selling <span>quality bearings</span> in India */}
+            <span>ANK Overseas</span> 
           </h1>
-          <p className='home-p'>"Your Trusted Source for Precision Bearings"</p>
+          <p className='home-p'>"Your Trusted Source for
+          Quality Bearings in India"</p>
+          <a href='/products'>
           <button className='home-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A] '>View More</button>
+          </a>
         </div>
         <div className='home-right'>
          <img src={whatsp} alt="" className='home-icons'/>

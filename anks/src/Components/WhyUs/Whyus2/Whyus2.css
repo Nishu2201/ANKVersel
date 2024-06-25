@@ -30,14 +30,14 @@
 .chose-box {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-between;
     max-width: 65vw;
     max-height: 85vw;
-    width: 20vw;
-    height: 30vw; 
-    padding: 4vw 1vw 1vw;
-    margin: 0 3vw;
+    width: 24vw;
+    height: 35vw; 
+    padding: 8vw 1vw 5vw;
+    margin: 0 1vw;
     border-radius: 25px;
     text-align: center;
     color: white;
@@ -51,7 +51,8 @@
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
-.chose-p{
+.chose-p,
+.chose-p2{
     font-size: 0.9vw;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -79,6 +80,7 @@
         flex-direction: column;
     }
     .chose-box {
+        justify-content: center;
         width: 35vw;
         height: 38vw; 
         padding: 1vw;
@@ -88,21 +90,32 @@
         width: 17vw;
         height: 15vw;
     }
-  .chose-h1 {
-        padding: 0 2vw;
+    .chose-head{
+        padding: 1.6vw 0 0;
         font-size: 3vw;
     }
     .chose-btn {
-        font-size: 2vw;
+        padding: 0.7vw 7vw;
+        font-size: 2.3vw;
+    }
+    .chose-p{
+        font-size: 1.6vw;
+        line-height: 2.5vw;
+        padding-bottom: 1vw;
+    }
+    .chose-p2{
+        display: none;
     }
 }
 
 @media (max-width: 480px) {
     .whyus2 {
-        height: auto;
+      height: auto;
+      padding-top: 3vw;
+        align-items: center;
+        justify-content:center ;
     }
     .whyus2-parent{
-        padding: 0;
         flex-direction: row;
     }
     .chose{
@@ -112,21 +125,31 @@
         margin: 0;
     }
     .chose-box {
-        width: 65vw;
-        height: 40vw; 
+        width: 53vw;
+        height: 60vw; 
+        padding-top: 15vw;
         margin: 0vw 4vw 8vw 4vw;
     }
-    .chose-pic{
-        width: 22vw;
-        height: 20vw;
-    }
+   
 
     .chose-btn {
-        padding: 1.5vw 6vw; 
-font-size: 2.3vw;
+        padding: 1.5vw 9vw; 
+font-size: 2.5vw;
     }
 
-    .chose-h1 {
-        font-size: 3.8vw; 
+    .chose-head{
+        padding: 1.6vw 0 0;
+        font-size: 4vw;
+    }
+    .chose-p{
+        font-size: 2.5vw;
+        line-height: 3vw;
+        padding: 2vw 5vw;
+    }
+}
+
+@media (max-width: 365px) {
+    .whyus2 {
+      padding-top: 3vw;
     }
 }

@@ -23,7 +23,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Filling notch bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -38,7 +38,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Angular contact ball bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -53,7 +53,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Thrust ball bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -70,7 +70,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Filling notch bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -85,7 +85,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Angular contact ball bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -100,7 +100,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Thrust ball bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -117,7 +117,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Cylindrical roller bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -132,7 +132,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Tapper roller bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -147,7 +147,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Needle roller bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -164,7 +164,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Filling notch bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -179,7 +179,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Angular contact ball bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -194,7 +194,7 @@ const Product2 = () => {
     />
   </div>
   <h1 className='items2-h1'>Thrust ball bearings</h1>
-  <a href='/contact'>
+  <a href='/contactus'>
   <button className='Product2-btn rounded-full bg-gradient-to-r from-[#CF100B] to-[#FA373A]'>
         get quote
        </button>
@@ -206,9 +206,10 @@ const Product2 = () => {
 
 <div className='items3-div ' >
   <h1 className='items3-divh1'>get quality bearings now!</h1>
-  <p className='div-p'>ANK Overseas: Competitive prices, low maintenance. 
-  Purchase for reliability and peace of mind.</p>
-  <a href='/contact'>
+  <p className='div-p'>ANK Overseas:Dedicated to quality,innovative . 
+  ANK Overseas will give the greatest degree of
+durability and performance.</p>
+  <a href='/contactus'>
   <button className='div-btn rounded-full bg-gradient-to-r from-[#c8c9c9] via-[#f5efef] to-[#f4efef]'>
         get quote
        </button>
